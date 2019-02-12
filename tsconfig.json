@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "allowJs": true,
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "tslint.jsEnable": false,
+      }
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
