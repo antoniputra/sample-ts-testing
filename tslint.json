@@ -1,14 +1,15 @@
 {
   "defaultSeverity": "error",
   "extends": [
-      "tslint:recommended"
+    "tslint:recommended"
   ],
   "jsRules": {},
   "rules": {
-    "object-literal-sort-keys": true,
-    "disable-next-line": "max-line-length",
+    "object-literal-sort-keys": false,
+    "semicolon": [
+      true,
+      "always"
+    ]
   },
-  "rulesDirectory": [
-    "node_modules/tslint-eslint-rules/dist/rules"
-  ]
+  "rulesDirectory": []
 }

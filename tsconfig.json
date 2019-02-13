@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": false,
     "sourceMap": true,
     "allowJs": true,
     "plugins": [
@@ -10,6 +12,7 @@
     ]
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "coverage"
   ]
 }

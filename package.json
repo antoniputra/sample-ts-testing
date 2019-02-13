@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha --require ts-node/register --watch-extensions ts 'tests/**/*.ts'",
-    "test-jest": "jest",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "mocha --require ts-node/register --watch-extensions ts 'tests/**/*.ts'",
+    "test-jest": "jest"
   },
   "keywords": [],
   "author": "",
@@ -18,10 +17,10 @@
     "chai": "^4.2.0",
     "jest": "^23.6.0",
     "mocha": "^5.2.0",
-    "nyc": "^13.2.0",
     "ts-jest": "^23.10.5",
     "ts-node": "^8.0.2",
-    "tslint-eslint-rules": "^5.4.0",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.3.3",
     "typescript-tslint-plugin": "^0.3.1"
   },
